@@ -1,0 +1,154 @@
+body {
+          font-family: "Poppi", sans-serif;
+          padding: 0px;
+          width: 100%;
+          height: 100vh;
+          margin: 0px;
+          background: #010e26;
+          display: grid;
+          grid-template-rows: auto 1fr auto;
+
+}
+
+
+
+
+header {
+          margin-top: 10px;
+          padding-left: 100px;
+          padding-right: 100px;
+
+}
+
+nav {
+
+          display: grid;
+          grid-template-columns: auto 1fr auto;
+          border-bottom: 0.5px solid #111d30;
+
+}
+
+nav ul {
+
+          text-align: center;
+          padding-left: 30%;
+          padding-right: 10%;
+          display: flex;
+          list-style: none;
+          justify-content: space-between;
+          align-items: center;
+}
+
+nav ul a {
+          font-family: "Poppi", sans-serif;
+          text-decoration: none;
+          color: #ffff;
+          font-weight: 300;
+          font-size: 1.5rem;
+          margin-right: 10px;
+}
+
+#logo {
+          width: 250px;
+}
+
+#contact_us {
+          background: #010e26;
+          align-self: center;
+          height: 60%;
+          font-weight: 500;
+          font-size: 23px;
+          color: white;
+          width: 170px;
+          border: 4px solid #195cf0;
+          border-radius: 15px;
+          font-family: "Poppi", sans-serif;
+
+
+}
+
+#About {
+          padding: 20px;
+          padding-left: 0px;
+          padding-right: 0px;
+          border-bottom: 3px solid #195cf0;
+
+}
+
+main {
+          height: 100vh;
+          width: 100%;
+}
+
+#page1 {
+          width: 100%;
+          height: 100%;
+}
+
+#page1_main_container {
+          width: 100%;
+          height: 80%;
+          display: grid;
+          grid-template-columns: 1fr auto;
+}
+
+#page1_information_container {
+          background: red;
+          padding:20px ;
+}
+
+#page1_img_container {
+          padding-right: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+       
+}
+#page1_meeting_img{
+          border-radius: 20px;
+          width: 900px;
+          filter: drop-shadow(0px 0px 30px #7C3ADE );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page1_second_container {
+          width: 100%;
+          height: 20%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#page2 {
+          width: 100%;
+          height: 100%;
+          background: green;
+}
+
+#page3 {
+          width: 100%;
+          height: 100%;
+          background: blue;
+}
