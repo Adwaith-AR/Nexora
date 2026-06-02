@@ -195,7 +195,6 @@ main {
           display: grid;
           grid-template-columns: 1fr 2fr;
 }
-
 .page1_icons {
           background: #1f1e48;
           border-radius: 10px;
