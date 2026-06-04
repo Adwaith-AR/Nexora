@@ -304,9 +304,10 @@ main {
 }
 
 .journey_child img {
-          padding: 10px;border: 2px solid #19273a;
-                    background: #172235;
-          
+          padding: 10px;
+          border: 2px solid #19273a;
+          background: #1f1e48;
+
           border-radius: 100px;
           width: 50px;
 }
@@ -342,8 +343,12 @@ main {
 }
 
 #page2_second_container {
+          display: flex;
           text-align: center;
-          height: 100%;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 47%;
 }
 
 #page2_second_container>h6 {
@@ -366,15 +371,7 @@ main {
           margin: 5px;
 }
 
-#page2_second_container>div {
-          width: 100%;
-          gap: 25px;
 
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 33%;
-}
 
 .name_card {
           border-radius: 20px;
@@ -382,7 +379,8 @@ main {
           background: #0c1326;
           padding: 20px;
           width: 21.25%;
-          height: 90%;
+          margin-top: 20px;
+         
 }
 
 .name_card>img {
@@ -418,10 +416,10 @@ p {
           padding-top: 30px;
           display: flex;
           align-items: center;
-          justify-content: start;
+          justify-content: space-evenly;
           flex-direction: column;
           width: 100%;
-          height: 70%;
+          height: 40%;
 
 
 }
@@ -429,7 +427,7 @@ p {
 #page3_container1 {
           overflow: hidden;
           width: 90%;
-          height: 30%;
+          height: 46%;
           border-radius: 20px;
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -475,31 +473,34 @@ p {
 }
 
 
-#page3_container2{
+#page3_container2 {
           padding-left: 30px;
-          width:88%;
-          height: 20%;
-          background: linear-gradient(135deg ,#8538e7,#2964d5);
+          width: 88%;
+          height: 28%;
+          background: linear-gradient(135deg, #8538e7, #2964d5);
           border-radius: 20px;
           display: grid;
           grid-template-columns: 1fr 1fr;
 }
-#page3_container2>div:first-child{
+
+#page3_container2>div:first-child {
           display: grid;
           grid-template-columns: auto 1fr;
 }
 
-#page3_container2>div:first-child > div:first-child{
+#page3_container2>div:first-child>div:first-child {
           display: flex;
           align-items: center;
           justify-content: center;
 }
+
 #page3_container2>div:first-child>div:first-child img {
-          width:50px;
+          width: 45px;
           border-radius: 15px;
-          background: linear-gradient(135deg,#9e62f2,#8d5bed);
-         padding:25px;
+          background: linear-gradient(135deg, #9e62f2, #8d5bed);
+          padding: 15px;
 }
+
 #page3_container2>div:first-child>div:nth-child(2) {
           display: flex;
           flex-direction: column;
@@ -507,21 +508,25 @@ p {
           justify-content: start;
           padding: 30px;
 }
-#page3_container2>div:first-child>div:nth-child(2) h1,p{
+
+#page3_container2>div:first-child>div:nth-child(2) h1,
+p {
           margin: 0px;
           color: white;
           font-weight: 100;
 }
-#page3_container2>div:first-child>div:nth-child(2) h1{
+
+#page3_container2>div:first-child>div:nth-child(2) h1 {
           font-size: 1.5em;
-          font-weight: 700;letter-spacing: 2px;
+          font-weight: 700;
+          letter-spacing: 2px;
 }
 
-#fucking_button{
+#fucking_button {
           display: flex;
           align-items: center;
           justify-content: end;
-          padding-right:140px ;
+          padding-right: 140px;
 }
 
 
@@ -531,24 +536,11 @@ p {
           justify-content: space-between;
           padding: 20px;
           width: 35%;
-          border-radius:10px ;
+          border-radius: 10px;
           border: 1px solid #676ee9;
           font-size: 1.4em;
           background: #3f5ed3;
-        
+
           color: white;
           letter-spacing: 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
