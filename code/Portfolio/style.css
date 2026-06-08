@@ -1,0 +1,239 @@
+body {
+
+          font-family: "Poppi", sans-serif;
+          padding: 0px;
+          width: 100%;
+          height: 100vh;
+          margin: 0px;background: #010e26; 
+          display: grid;
+          grid-template-rows: auto 1fr auto;
+
+}
+
+button {
+          cursor: pointer;
+}
+
+
+
+header {
+          margin-top: 10px;
+          padding-left: 100px;
+          padding-right: 100px;
+
+}
+
+nav {
+
+          display: grid;
+          grid-template-columns: auto 1fr auto;
+          border-bottom: 0.5px solid #111d30;
+
+}
+
+nav ul {
+
+          text-align: center;
+          padding-left: 30%;
+          padding-right: 10%;
+          display: flex;
+          list-style: none;
+          justify-content: space-between;
+          align-items: center;
+}
+
+nav ul a {
+          font-family: "Poppi", sans-serif;
+          text-decoration: none;
+          color: #ffff;
+          font-weight: 300;
+          font-size: 1.5rem;
+          margin-right: 10px;
+}
+
+#logo {
+          width: 250px;
+}
+
+#contact_us {
+          background: #010e26;
+          align-self: center;
+          height: 60%;
+          font-weight: 500;
+          font-size: 23px;
+          color: white;
+          width: 170px;
+          border: 4px solid #195cf0;
+          border-radius: 15px;
+          font-family: "Poppi", sans-serif;
+
+
+}
+
+#About {
+          padding: 20px;
+          padding-left: 0px;
+          padding-right: 0px;
+          border-bottom: 3px solid #195cf0;
+
+}
+
+main {
+          width: 100%;
+          height: 100vh;
+}
+
+#page1 {
+          width: 100%;
+          height: 70%;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+}
+
+#page1>div:first-child {
+          padding-top: 40px;
+          padding-left: 60px;
+          padding-right: 30%;
+}
+
+
+#page1>div:first-child h5 {
+          display: flex;
+
+          justify-content: space-evenly;
+          align-items: center;
+          width: fit-content;
+          gap: 7px;
+          color: #5925e6;
+          border: 2px solid #233551;
+          padding: 10px;
+          border-radius: 20px;
+}
+
+#page1>div:first-child img {
+          width: 20px;
+}
+
+#page1>div:first-child h1 {
+          color: white;
+          font-size: 3.7em;
+}
+
+#page1>div:first-child span {
+          color: #8456ce;
+}
+
+#page1>div:first-child p {
+          color: white;
+          opacity: 0.8;
+          font-size: 1.4em;
+}
+
+#page1>div:nth-child(2) img {
+          width: 1000px;
+          filter: drop-shadow(0px 0px 100px #7340f0);
+}
+
+#page2 {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+
+
+#page2_course_meanu_container {
+          background: #101b2f;
+          border: 2px solid #1f2937;
+          width: 70%;
+          padding: 40px;
+          border-radius: 20px;
+          display: flex;
+          gap: 30px;
+          justify-content: space-evenly;
+          align-items: center;
+}
+
+#page2_course_meanu_container button {
+          height: 60px;
+          background: #7340f0;
+          border: none;
+          border-radius: 10px;
+          width: 20%;
+          font-size: 1.2em;
+          color: white;
+}
+
+#page2_course_container {
+          width: 90%;
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 80px;
+          gap: 30px;
+          padding: 30px;
+          align-items: stretch;
+          justify-content: space-evenly;
+}
+
+#page2_course_container>div {
+          background: #101b2f;
+          border: 2px solid #1f2937;
+          width: 30%;
+          border-radius: 20px;
+          height: 530px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 10px;
+}
+
+#page2_course_container>div>img {
+          width: 100%;
+          border-radius: 10px;
+}
+
+#page2_course_container>div>h4 {
+          color: white;
+          border-radius: 10px;
+          margin-left: 5px;
+          padding: 10px;
+          background: #7040a8;
+          align-self: start;
+}
+
+#page2_course_container>div>div {
+          display: grid;
+          grid-template-columns: 1fr auto;
+}
+
+#page2_course_container>div>div>div>h3 {
+          color: white;
+}
+
+#page2_course_container>div>div>div>p {
+          color: white;
+          opacity: 0.8;
+}
+
+#page2_course_container>div>div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+}
+
+#page2_course_container>div>div>button {
+          width: 60px;
+          margin: 20px;
+          height: 60px;
+          background: none;
+          border: none;
+          border-radius: 100px;
+          border: 3px solid #7040a8;
+
+}
+
+#page2_course_container>div>div>button>img {
+          width: 25px;
+
+}
