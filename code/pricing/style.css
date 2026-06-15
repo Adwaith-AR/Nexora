@@ -1,0 +1,317 @@
+body::-webkit-scrollbar {
+          display: none;
+}
+
+body {
+          overflow: auto;
+
+          font-family: "Poppi", sans-serif;
+          padding: 0px;
+          width: 100%;
+          height: 100vh;
+          margin: 0px;
+          background: #010e26;
+          display: grid;
+          grid-template-rows: auto 1fr auto;
+
+}
+
+button {
+          cursor: pointer;
+}
+
+
+
+header {
+          margin-top: 10px;
+          padding-left: 100px;
+          padding-right: 100px;
+
+}
+
+nav {
+
+          display: grid;
+          grid-template-columns: auto 1fr auto;
+          border-bottom: 0.5px solid #111d30;
+
+}
+
+nav ul {
+
+          text-align: center;
+          padding-left: 30%;
+          padding-right: 10%;
+          display: flex;
+          list-style: none;
+          justify-content: space-between;
+          align-items: center;
+}
+
+nav ul a {
+          font-family: "Poppi", sans-serif;
+          text-decoration: none;
+          color: #ffff;
+          font-weight: 300;
+          font-size: 1.5rem;
+          margin-right: 10px;
+}
+
+#logo {
+          width: 250px;
+}
+
+#contact_us {
+          background: #010e26;
+          align-self: center;
+          height: 60%;
+          font-weight: 500;
+          font-size: 23px;
+          color: white;
+          width: 170px;
+          border: 4px solid #195cf0;
+          border-radius: 15px;
+          font-family: "Poppi", sans-serif;
+
+
+}
+
+#About {
+          padding: 20px;
+          padding-left: 0px;
+          padding-right: 0px;
+          border-bottom: 3px solid #195cf0;
+
+}
+
+main {
+          width: 100%;
+          height: 100vh;
+}
+
+main>h5 {
+          font-size: 0.9em;
+          font-weight: 100;
+          justify-self: center;
+          width: fit-content;
+          color: #9e39be;
+          border: 2px solid #9e39be;
+          padding: 10px;
+          padding: 10px 20px;
+          border-radius: 20px;
+          margin: 10px;
+}
+
+main>h1 {
+          margin: 10px;
+          font-size: 3.7em;
+          text-align: center;
+          color: white;
+          justify-self: center;
+}
+
+main>h1>span {
+          color: #8a58f7;
+}
+
+main>p {
+
+          color: white;
+          justify-self: center;
+          font-size: 1.4em;
+          opacity: 0.7;
+          text-align: center;
+}
+
+#MYswitch {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 30%;
+          justify-self: center;
+}
+
+#MYswitch>h5 {
+          margin: 0px;
+          font-weight: 100;
+          color: white;
+          font-size: 1.5em;
+}
+
+#MYswitch>p {
+          margin: 0px;
+          color: #74b8a1;
+          width: fit-content;
+          text-align: center;
+          border-radius: 15px;
+          padding: 10px 15px;
+          background: #093432;
+}
+
+#MYswitchBtn {
+          margin: 0px;
+          background: #6839cc;
+          height: 40px;
+          border-radius: 100px;
+          width: 85px;
+          display: flex;
+          align-items: center;
+}
+
+#MYswitchBtn>div {
+          background: white;
+          height: 30px;
+          border-radius: 100px;
+          width: 30px;
+          margin-left: 6px;
+}
+
+#Pricing_card {
+          color: white;
+          background: radial-gradient(#290186 1%, #010e26 70%);
+          width: 80%;
+          height: 80%;
+          justify-self: center;
+          margin: 20px;
+          padding: 30px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 100px;
+
+}
+
+#Pricing_card>div {
+          display: grid;
+          grid-row: inherit;
+          padding: 30px;
+          border-radius: 15px;
+          background: #07111e;
+          border: 3px solid #202737;
+
+}
+
+#Pricing_card>div h4 {
+          margin: 0px;
+          font-size: 2em;
+}
+
+#Pricing_card>div p {
+          display: flex;
+          align-items: center;
+          margin: 0px;
+          opacity: 0.8;
+          gap: 30px;
+          font-size: 1.4em;
+}
+
+#Pricing_card>div p img {
+          width: 30px;
+}
+
+#Pricing_card>div h1 {
+          font-size: 4em;
+          margin: 20px;
+          margin-left: 0px;
+}
+
+#Pricing_card>div button {
+          border: none;
+          height: 70px;
+          color: white;
+          font-size: 1.4em;
+          margin-top: 30px;
+          border-radius: 10px;
+          background: linear-gradient(135deg, #6f3aed, #2e5ef0);
+}
+
+#Pricing_card>div button {
+          border: none;
+          height: 70px;
+          color: white;
+          font-size: 1.4em;
+          margin-top: 30px;
+          border-radius: 10px;
+          background: linear-gradient(135deg, #6f3aed, #2e5ef0);
+}
+
+#Pricing_card>div:nth-child(2) {
+          padding: 0px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: none;
+          background: linear-gradient(90deg, #6f3aed 30%, #2e5ef0);
+}
+
+#Pricing_card>div:nth-child(2)>div {
+          padding: 30px;
+          display: grid;
+          justify-self: end;
+          grid-row: inherit;
+          border-radius: 10px;
+          height: 90%;
+          position: relative;
+          width: 85%;
+          bottom: 3px;
+          background: #07111e;
+}
+
+#what_we_offer {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          width: 90%;
+          height: 30%;
+          background: #07111e;
+          border: 3px solid #202737;
+          justify-self: center;
+          align-items: center;
+          border-radius: 20px;
+}
+
+#what_we_offer>div {
+          height: 80%;
+          border-left: 3px solid #202737;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+}
+
+#what_we_offer>div img {
+          width: 80px;
+}
+
+#what_we_offer h4 {
+          font-size: 1.6em;
+          color: white;
+}
+
+#what_we_offer p {
+          font-weight: 1.4em;
+          opacity: 0.8;
+          color: white;
+
+}
+
+main>h3 {
+          color: #a659d1;
+          justify-self: center;
+}
+main>h2 {
+          color: white;
+          font-size: 2.5em;
+          justify-self: center;
+}
+#FAQ_container{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr 1fr;
+          gap: 20px;
+          height: 25%;
+          width: 80%;
+          justify-self: center ;
+}
+#FAQ_container > div{background: #07111e;
+          border: 1px solid #202737;
+          border-radius: 15px;
+}
