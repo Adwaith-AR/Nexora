@@ -165,8 +165,12 @@ main>p {
           width: 30px;
           margin-left: 6px;
 }
+.toY{
+transform: translateX(45px);
+}
 
 #Pricing_card {
+          overflow: hidden;
           color: white;
           background: radial-gradient(#290186 1%, #010e26 70%);
           width: 80%;
@@ -180,7 +184,7 @@ main>p {
 
 }
 
-#Pricing_card>div {
+.Monthly {
           display: grid;
           grid-row: inherit;
           padding: 30px;
@@ -190,12 +194,13 @@ main>p {
 
 }
 
-#Pricing_card>div h4 {
+
+.Monthly h4 {
           margin: 0px;
           font-size: 2em;
 }
 
-#Pricing_card>div p {
+.Monthly p {
           display: flex;
           align-items: center;
           margin: 0px;
@@ -204,17 +209,17 @@ main>p {
           font-size: 1.4em;
 }
 
-#Pricing_card>div p img {
+.Monthly p img {
           width: 30px;
 }
 
-#Pricing_card>div h1 {
+.Monthly h1 {
           font-size: 4em;
           margin: 20px;
           margin-left: 0px;
 }
 
-#Pricing_card>div button {
+.Monthly button {
           border: none;
           height: 70px;
           color: white;
@@ -224,7 +229,7 @@ main>p {
           background: linear-gradient(135deg, #6f3aed, #2e5ef0);
 }
 
-#Pricing_card>div button {
+.Monthly button {
           border: none;
           height: 70px;
           color: white;
@@ -234,16 +239,17 @@ main>p {
           background: linear-gradient(135deg, #6f3aed, #2e5ef0);
 }
 
-#Pricing_card>div:nth-child(2) {
+#MStandard,#YStandard {
           padding: 0px;
           display: flex;
           flex-direction: column;
           align-items: center;
           border: none;
           background: linear-gradient(90deg, #6f3aed 30%, #2e5ef0);
+          
 }
 
-#Pricing_card>div:nth-child(2)>div {
+#MStandard>div,#YStandard>div {
           padding: 30px;
           display: grid;
           justify-self: end;
@@ -255,6 +261,7 @@ main>p {
           bottom: 3px;
           background: #07111e;
 }
+
 
 #what_we_offer {
           display: grid;
@@ -314,4 +321,7 @@ main>h2 {
 #FAQ_container > div{background: #07111e;
           border: 1px solid #202737;
           border-radius: 15px;
+}
+.hide{
+          display: none;
 }

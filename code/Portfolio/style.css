@@ -157,12 +157,18 @@ main {
 
 #page2_course_meanu_container button {
           height: 60px;
-          background: #7340f0;
+          background: none;
           border: none;
           border-radius: 10px;
           width: 20%;
           font-size: 1.2em;
           color: white;
+          transition: 100ms;
+}
+
+#page2_course_meanu_container button:hover {
+          background: #7240f05e;
+          transition: 100ms;
 }
 
 #page2_course_container {
@@ -224,19 +230,20 @@ main {
 }
 
 #page2_course_container>div>div>button {
-          width: 60px;
           margin: 20px;
-          height: 60px;
           background: none;
           border: none;
           border-radius: 100px;
           border: 3px solid #7040a8;
 
 }
-
+#page2_course_container>div>div>button:hover{
+          background: #7040a8;
+}
 #page2_course_container>div>div>button>img {
+          height: 25px;
+          padding: 15px 10px;
           width: 25px;
-
 }
 
 #plan_container {
@@ -271,7 +278,7 @@ main {
 
 #plan_container>div:first-child button {
           font-size: 1.3em;
-          font-weight: 1000;
+          font-weight: 100;
           color: white;
           opacity: 0.8;
           background: linear-gradient(135deg, #8245e6, #6f44f5);
@@ -320,4 +327,12 @@ main {
 #plan_container>div:nth-child(2)>div {
           border-left: 2px solid #1f2937;
           padding: 30px;
+}
+
+.hide {
+          display: none !important;
+}
+
+.BtnON {
+          background: #7340f0 !important;
 }
