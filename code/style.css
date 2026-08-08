@@ -204,6 +204,7 @@ nav ul li:hover::after {
 
 .page2 {
           padding: 90px 8%;
+          box-sizing: border-box
 
 }
 
