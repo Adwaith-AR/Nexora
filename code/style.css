@@ -139,7 +139,7 @@ nav ul li:hover::after {
 
 .page1 {
           gap: 30px;
-          height: 92vh;
+          height: 92dvh;
           background: #8f1537;
 
           background-size: cover;
@@ -174,7 +174,7 @@ nav ul li:hover::after {
 
 
 .page1 img {
-          width: 55vw;
+          width: 55dvw;
           transition: .6s;
 }
 
@@ -327,7 +327,7 @@ footer p {
           }
 
           .page1 img {
-                    width: 100vw;
+                    width: 100dvw;
           }
 
           nav ul {
