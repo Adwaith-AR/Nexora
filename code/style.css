@@ -92,6 +92,7 @@ nav ul a {
           font-weight: 500;
           text-decoration: none;
           transition: .3s;
+          font-size: 20px;
 
 }
 
@@ -138,7 +139,7 @@ nav ul li:hover::after {
 
 .page1 {
           gap: 30px;
-          height: 90vh;
+          height: 92vh;
           background: #8f1537;
 
           background-size: cover;
@@ -149,7 +150,7 @@ nav ul li:hover::after {
           grid-template-columns: 1fr 1fr;
 
 
-          padding: 0 8%;
+          padding-left: 8%;
 
 }
 
@@ -179,7 +180,7 @@ nav ul li:hover::after {
 
 .page1 h1 {
 
-          font-size: 50px;
+          font-size: 70px;
           line-height: 1.1;
           margin-bottom: 20px;
 
@@ -201,8 +202,8 @@ nav ul li:hover::after {
 
 
 
-.section {
-
+.page2 {
+          height: 100vh;
           padding: 90px 8%;
 
 }
@@ -261,7 +262,8 @@ nav ul li:hover::after {
 
 }
 
-.announcement {
+.page3 {
+          height: 100vh;
 
           background: #8C1538;
           color: white;
@@ -277,6 +279,11 @@ nav ul li:hover::after {
           border-radius: 12px;
           margin-top: 20px;
 
+}
+
+.page4 {
+          height: auto;
+          padding: 80px 8%;
 }
 
 footer {
@@ -303,17 +310,25 @@ footer p {
 }
 
 @media(max-width:900px) {
+          .page1 {
 
-          .hero h1 {
+                    display: grid;
+                    grid-template-columns: 1fr;
+
+          }
+
+          .page1 h1 {
 
                     font-size: 42px;
 
           }
 
-          .search-box {
+          .page1 >div:nth-child(2) {
+                  display: flex;
+          }
 
-                    width: 100%;
-
+          .page1 img {
+                    width: 100vw;
           }
 
           nav ul {
