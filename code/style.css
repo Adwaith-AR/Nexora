@@ -203,7 +203,6 @@ nav ul li:hover::after {
 
 
 .page2 {
-          height: 100vh;
           padding: 90px 8%;
 
 }
@@ -263,7 +262,6 @@ nav ul li:hover::after {
 }
 
 .page3 {
-          height: 100vh;
 
           background: #8C1538;
           color: white;
@@ -311,7 +309,7 @@ footer p {
 
 @media(max-width:900px) {
           .page1 {
-
+                    padding: 0px;
                     display: grid;
                     grid-template-columns: 1fr;
 
@@ -323,8 +321,8 @@ footer p {
 
           }
 
-          .page1 >div:nth-child(2) {
-                  display: flex;
+          .page1 >div:nth-child(1) {
+                  padding: 90px 8%;
           }
 
           .page1 img {
