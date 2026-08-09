@@ -2,7 +2,7 @@
 
 const cards = document.querySelectorAll(".card");
 const Elements = document.querySelectorAll(".element");
-const h1s = document.querySelectorAll(".h1");
+const h1s = document.querySelectorAll(".slidIn");
 
 const collage = document.getElementById("Collage");
 collage.style.opacity = "0";
