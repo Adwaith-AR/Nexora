@@ -46,8 +46,6 @@ body {
 }
 
 nav {
-
-
           width: 100%;
           background: var(--white);
           display: flex;
@@ -60,7 +58,6 @@ nav {
 }
 
 .logo {
-
           font-size: 32px;
           font-weight: 700;
           color: var(--primary);
@@ -68,13 +65,11 @@ nav {
 }
 
 .logo span {
-
           color: #f9c51a;
 
 }
 
 nav #bigscreenmenu {
-
           display: flex;
           list-style: none;
           gap: 38px;
@@ -82,7 +77,6 @@ nav #bigscreenmenu {
 }
 
 nav #bigscreenmenu li {
-
           position: relative;
 
 }
@@ -97,33 +91,22 @@ nav #bigscreenmenu a {
 }
 
 nav #bigscreenmenu a:hover {
-
           color: var(--primary);
 
 }
 
 nav #bigscreenmenu li::after {
-
           content: "";
-
           position: absolute;
-
           left: 0;
-
           bottom: -8px;
-
           width: 0;
-
           height: 2px;
-
           background: var(--primary);
-
           transition: .3s;
-
 }
 
 nav #bigscreenmenu li:hover::after {
-
           width: 100%;
 
 }
@@ -153,7 +136,6 @@ nav #bigscreenmenu li:hover::after {
 #mobilemenu i {
           justify-self: end;
           align-self: flex-end;
-
 }
 
 #mobilemenu ul {
