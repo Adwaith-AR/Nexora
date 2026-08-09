@@ -2,10 +2,16 @@
 <html lang="en">
 
           <head>
+                    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
                     <meta charset="UTF-8">
+
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                    <link rel="stylesheet" href="style.css">
+
+                    <title>AmritaNav</title>
+                    <link rel="stylesheet"
+                              href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menuclose" />
+
                     <link rel="preconnect" href="https://fonts.googleapis.com">
 
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,35 +26,140 @@
 
           </head>
 
-          <body data-theme="dark">
-                    <nav>
+          <body>
+                    <nav class=" element">
 
-                              <div class="logo">
+                              <div class="logo element">
 
                                         Amrita<span>Nav</span>
 
                               </div>
 
-                              <ul>
+                              <ul id="bigscreenmenu">
 
-                                        <li><a href="#">Home</a></li>
+                                        <li><a href="https://amritanav.vercel.app/">Home</a></li>
 
-                                        <li><a href="#">Tools</a></li>
+                                        <li><a href="https://amritanav.vercel.app/Tools/index.html">Tools</a></li>
 
-                                        <li><a href="#">Campus Map</a></li>
+                                        <li><a href="https://amritanav.vercel.app/About/index.html">About</a></li>
 
-                                        <li><a href="#">Resources</a></li>
+                                        <li><a href="https://amritanav.vercel.app/Announcements/index.html">Announcements</a>
+                                        </li>
 
-                                        <li><a href="#">Emergency</a></li>
+                                        <li><a href="https://amritanav.vercel.app/Contact%20us/index.html">Contact
+                                                            Us</a></li>
 
                               </ul>
 
                               <div class="icons">
-                                        <i class="fa-solid fa-bell"></i>
+                                        <i onclick="openMenu()" class="material-symbols-outlined">menu</i>
 
+
+                              </div>
+                              <div id="mobilemenu">
+                                        <i onclick="closeMenu()" class="material-symbols-outlined">close</i>
+                                        <ul>
+
+                                                  <a href="https://amritanav.vercel.app/">Home</a>
+                                                  <a href="https://amritanav.vercel.app/Tools/index.html">Tools</a>
+                                                  <a href="https://amritanav.vercel.app/About/index.html">About</a>
+                                                  <a
+                                                            href="https://amritanav.vercel.app/Announcements/index.html">Resources</a>
+                                                  <a href="https://amritanav.vercel.app/Contact%20us/index.html">Contact
+                                                            Us</a>
+
+                                        </ul>
                               </div>
 
                     </nav>
+                    <section class="page1">
+                    
+                              
+                    
+                              <div class="grid">
+                    
+                                        <div class="card">
+                    
+                                                  <i class="fa-solid fa-location-dot"></i>
+                    
+                                                  <h3>Classroom Locator</h3>
+                    
+                                                  <p>Find any classroom instantly.</p>
+                    
+                                        </div>
+                    
+                                        <div class="card">
+                    
+                                                  <i class="fa-solid fa-map"></i>
+                    
+                                                  <h3>Campus Map</h3>
+                    
+                                                  <p>Interactive navigation across campus.</p>
+                    
+                                        </div>
+                    
+                                        <div class="card">
+                    
+                                                  <i class="fa-solid fa-book"></i>
+                    
+                                                  <h3>Study Resources</h3>
+                    
+                                                  <p>Notes, PYQs and lab manuals.</p>
+                    
+                                        </div>
+                    
+                                        <div class="card">
+                    
+                                                  <i class="fa-solid fa-utensils"></i>
+                    
+                                                  <h3>Food Court</h3>
+                    
+                                                  <p>Menus, locations and timings.</p>
+                    
+                                        </div>
+                    
+                                        <div class="card">
+                    
+                                                  <i class="fa-solid fa-users"></i>
+                                                  <h3>Clubs</h3>
+                                                  <p>Explore all student clubs.</p>
+                    
+                                        </div>
+                    
+                                        <div class="card">
+                    
+                                                  <i class="fa-solid fa-award"></i>
+                    
+                                                  <h3>Scholarships</h3>
+                    
+                                                  <p>Latest scholarship opportunities.</p>
+                    
+                                        </div>
+                                        <div class="card">
+                    
+                                                  <i class="fa-solid fa-phone"></i>
+                    
+                                                  <h3>Emergency</h3>
+                    
+                                                  <p>Quick access to important contacts.</p>
+                    
+                                        </div>
+                    
+                                        <div class="card">
+                    
+                                                  <i class="fa-solid fa-bullhorn"></i>
+                    
+                                                  <h3>Announcements</h3>
+                    
+                                                  <p>Stay updated with campus news.</p>
+                    
+                                        </div>
+                    
+                              </div>
+                    
+                    </section>
+
+
                     <script src="app.js"></script>
           </body>
 
