@@ -71,24 +71,13 @@ h1s.forEach(h1 => {
 
 });
 
+const mobilemenu = document.getElementById("mobilemenu");
+mobilemenu.style.display = "none"
 
-const button = document.querySelector(".search-box button");
+function openMenu() {
+          mobilemenu.style.display = "block";
+}
 
-button.addEventListener("click", () => {
-
-          const room = document.querySelector(".search-box input").value;
-
-          if (room === "") {
-
-                    alert("Please enter a classroom number.");
-
-          }
-
-          else {
-
-                    alert("Searching for Classroom: " + room);
-
-          }
-
-});
-
+function closeMenu() {
+          mobilemenu.style.display = "none";
+}
