@@ -20,7 +20,7 @@ html {
 }
 
 body {
-          background: var(--primary);
+          background: var(--white);
           color: var(--gray);
 }
 
@@ -159,7 +159,7 @@ nav #bigscreenmenu li:hover::after {
 .grid {
 
           display: grid;
-          grid-template-columns: repeat(2, minmax(23px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
           gap: 30px;
 
 }
@@ -218,6 +218,14 @@ nav #bigscreenmenu li:hover::after {
           nav #bigscreenmenu {
 
                     display: none;
+
+          }
+
+          .grid {
+
+                    display: grid;
+                    grid-template-columns: repeat(2, minmax(23px, 1fr));
+                    gap: 10px;
 
           }
 
